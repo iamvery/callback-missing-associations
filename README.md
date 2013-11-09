@@ -4,7 +4,7 @@ The bug is illustrated by a spec:
 
 1. `bundle install`
 
-2. `rake db:migrate
+2. `rake db:migrate`
 
 3. `rake test:prepare`
 
