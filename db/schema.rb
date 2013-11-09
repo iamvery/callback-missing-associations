@@ -11,9 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131109000527) do
+ActiveRecord::Schema.define(:version => 20131109050103) do
 
   create_table "tags", :force => true do |t|
+  end
+
+  create_table "widgets", :force => true do |t|
+    t.integer "tag_id"
   end
 
 end
